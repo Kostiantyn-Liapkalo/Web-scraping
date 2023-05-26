@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "web-scraping"
+version = "0.1.0"
+description = ""
+authors = ["Kostiantyn-Liapkalo <lynx87@ukr.net>"]
+readme = "README.md"
+packages = [{include = "web_scraping"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+bs4 = "^0.0.1"
+charset-normalizer = "^3.1.0"
+idna = "^3.4"
+lxml = "^4.9.2"
+requests = "^2.31.0"
+urllib3 = "^2.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
